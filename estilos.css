@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+<¡se cambio el tipo de letra de la descripcion!>
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #612783 0%, #0fe79f 100%);
@@ -64,7 +64,7 @@ body:has(#back:target) .credential-card:first-child {
     visibility: hidden;
     pointer-events: none;
 }
-
+/*se cambnio el color del contorno de la credencial*/
 /* Estilos comunes para frente y reverso */
 .card-front,
 .card-back {
@@ -145,7 +145,7 @@ body:has(#back:target) .credential-card:first-child {
     padding: 15px 20px;
     flex: 1;
 }
-
+/*se cambio el contorno del boton*/
 .info-row {
     display: flex;
     justify-content: space-between;
@@ -168,7 +168,7 @@ body:has(#back:target) .credential-card:first-child {
     text-align: right;
     font-weight: 500;
 }
-
+/*cambie el clolor del boton para pasar al reverso de la credencial*/
 /* Botón girar */
 .flip-btn {
     display: block;
@@ -196,7 +196,7 @@ body:has(#back:target) .credential-card:first-child {
 .flip-btn:active {
     transform: translateY(0);
 }
-
+/*se cambio el color */
 /* REVERSO estilos */
 .back-header {
     background: linear-gradient(135deg, #000000 0%, #001f3f 100%);
